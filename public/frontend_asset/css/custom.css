@@ -1,0 +1,10 @@
+:root{
+    --fc-body-color: #000;
+    --fc-heading-color: #000;
+}
+
+svg{
+    font-weight: 300;
+    stroke-width: 1px;
+    color: #000;
+}
