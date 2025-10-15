@@ -99,13 +99,13 @@
   ),
   'flowframe/laravel-trend' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Flowframe\\Trend\\TrendServiceProvider',
-    ),
     'aliases' => 
     array (
       'Trend' => 'Flowframe\\Trend\\TrendFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'Flowframe\\Trend\\TrendServiceProvider',
     ),
   ),
   'genealabs/laravel-model-caching' => 
@@ -152,25 +152,36 @@
   ),
   'livewire/livewire' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Livewire\\LivewireServiceProvider',
-    ),
     'aliases' => 
     array (
       'Livewire' => 'Livewire\\Livewire',
     ),
+    'providers' => 
+    array (
+      0 => 'Livewire\\LivewireServiceProvider',
+    ),
+  ),
+  'maatwebsite/excel' => 
+  array (
+    'aliases' => 
+    array (
+      'Excel' => 'Maatwebsite\\Excel\\Facades\\Excel',
+    ),
+    'providers' => 
+    array (
+      0 => 'Maatwebsite\\Excel\\ExcelServiceProvider',
+    ),
   ),
   'milon/barcode' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Milon\\Barcode\\BarcodeServiceProvider',
-    ),
     'aliases' => 
     array (
       'DNS1D' => 'Milon\\Barcode\\Facades\\DNS1DFacade',
       'DNS2D' => 'Milon\\Barcode\\Facades\\DNS2DFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'Milon\\Barcode\\BarcodeServiceProvider',
     ),
   ),
   'nesbot/carbon' => 
@@ -196,13 +207,13 @@
   ),
   'ryangjchandler/blade-capture-directive' => 
   array (
-    'providers' => 
-    array (
-      0 => 'RyanChandler\\BladeCaptureDirective\\BladeCaptureDirectiveServiceProvider',
-    ),
     'aliases' => 
     array (
       'BladeCaptureDirective' => 'RyanChandler\\BladeCaptureDirective\\Facades\\BladeCaptureDirective',
+    ),
+    'providers' => 
+    array (
+      0 => 'RyanChandler\\BladeCaptureDirective\\BladeCaptureDirectiveServiceProvider',
     ),
   ),
   'spatie/laravel-medialibrary' => 
@@ -266,13 +277,6 @@
     'providers' => 
     array (
       0 => 'TomatoPHP\\FilamentEcommerce\\FilamentEcommerceServiceProvider',
-    ),
-  ),
-  'tomatophp/filament-helpers' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'TomatoPHP\\FilamentHelpers\\FilamentHelpersServiceProvider',
     ),
   ),
   'tomatophp/filament-icons' => 
